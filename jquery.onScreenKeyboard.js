@@ -245,7 +245,7 @@
 				'<li class="osk-one osk-left">1</li>' +
 				'<li class="osk-off">2</li>' +
 				'<li class="osk-off">3</li>' +
-				'<li class="osk-backspace osk-last-item">Back</li>' +
+				'<li class="osk-backspace osk-last-item">Delete</li>' +
 
 				'<li class="osk-off osk-left">4</li>' +
 				'<li class="osk-off">5</li>' +
@@ -254,8 +254,7 @@
 
 				'<li class="osk-off osk-left">7</li>' +
 				'<li class="osk-off">8</li>' +
-				'<li class="osk-off">9</li>' +
-				'<li class="osk-return osk-last-item">Submit</li>' +
+				'<li class="osk-off osk-last-item">9</li>' +
 
 				'<li class="osk-off osk-left osk-zero">0</li>' +
 				'<li class="osk-off">.</li>' +

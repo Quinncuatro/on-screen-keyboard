@@ -11,7 +11,8 @@
 
 	#osk-container > li {
 		float: left;
-		width: 5.81395349%;
+		/*width: 5.81395349%;*/
+		/*width: 20%*/
 		height: 3em;
 		margin: 0 0.726744186% 5px 0;
 		line-height: 3em;
@@ -39,11 +40,10 @@
 			position: static;
 		}*/
 
-	#osk-container > .osk-tab,
 	#osk-container > .osk-backspace,
-	#osk-container > .osk-hide,
-	#osk-container > .osk-return {
-		width: 14.9709302%;
+	#osk-container > .osk-hide {
+		/*width: 14.9709302%;*/
+		width: 35%;
 	}
 
 	/*#osk-container > .osk-capslock {
@@ -51,7 +51,8 @@
 	}*/
 
 	#osk-container > .osk-zero {
-		width: 12.4%;
+		/*width: 12.4%;*/
+		width: 41%;
 	}
 
 	/*#osk-container > .osk-return {
@@ -104,9 +105,9 @@ body {
 }
 
 #osk-container {
-	width: 95%;     /* Account for 2% padding and a vertical scroll bar */
-	min-width: 500px;
-	max-width: 1200px;
+	width: 25%;     /* Account for 2% padding and a vertical scroll bar */
+	min-width: 250px;
+	/*max-width: 1200px;*/
 	background: #EEE;
 	border-radius: 0.25rem;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -126,6 +127,7 @@ body {
 	-moz-transition: 0.5s;
 	border: 1px solid #adadad;
 	box-sizing: border-box;
+	width: 20%;
 }
 
 /*#osk-container > .osk-dragger {
